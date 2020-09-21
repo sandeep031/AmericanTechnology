@@ -728,4 +728,4 @@
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExcelApplicationScope>
   </Sequence>
-</Activity
+</Activity>
