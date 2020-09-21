@@ -521,7 +521,7 @@
                                     <OutArgument x:TypeArguments="x:Int32">[volume]</OutArgument>
                                   </Assign.To>
                                   <Assign.Value>
-                                    <InArgument x:TypeArguments="x:Int32">[Convert.ToInt32(getDate(getDate.Count-2).Replace(",",""))]</InArgument>
+                                    <InArgument x:TypeArguments="x:Int32">[Convert.ToInt32(getDate(getDate.Count-2).Replace(",","").Replace(".",""))]</InArgument>
                                   </Assign.Value>
                                 </Assign>
                               </If.Else>
